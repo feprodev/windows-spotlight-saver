@@ -1,13 +1,13 @@
 {
   "name": "windows-spotlight-saver",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Quick saving of Windows Spotlight images",
+  "bin": "index.js",
   "scripts": {
     "start:dev": "nodemon index.js",
     "start": "node index.js"
   },
-  "keywords": [],
+  "keywords": ["windows", "spotlight", "background"],
   "author": "feprodev",
   "license": "ISC",
   "devDependencies": {
@@ -16,5 +16,6 @@
   },
   "dependencies": {
     "probe-image-size": "^7.2.3"
-  }
+  },
+  "repository": "https://github.com/feprodev/windows-spotlight-saver.git"
 }

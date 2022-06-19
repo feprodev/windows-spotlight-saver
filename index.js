@@ -32,6 +32,8 @@ async function main() {
             fs.copyFileSync(assetsFilePath, path.resolve(landscape ? destinationLandscapeDir : destinationPortraitDir, `${fileName}.jpg`))
         }
     }
+
+    console.log('Done')
 }
 
 function initializeDestinationDirs() {
