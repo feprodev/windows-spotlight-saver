@@ -1,0 +1,20 @@
+{
+  "name": "windows-spotlight-saver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "feprodev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "probe-image-size": "^7.2.3"
+  }
+}
