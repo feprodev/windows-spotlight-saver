@@ -1,6 +1,6 @@
 {
   "name": "windows-spotlight-saver",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Quick saving of Windows Spotlight images",
   "bin": "index.js",
   "scripts": {
